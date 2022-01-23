@@ -11,3 +11,6 @@ input.onButtonPressed(Button.B, function () {
     wuKong.setServoAngle(wuKong.ServoTypeList._270, wuKong.ServoList.S0, 100)
     wuKong.setServoAngle(wuKong.ServoTypeList._360, wuKong.ServoList.S2, -140)
 })
+wuKong.setServoAngle(wuKong.ServoTypeList._360, wuKong.ServoList.S2, -180)
+basic.pause(500)
+wuKong.setServoAngle(wuKong.ServoTypeList._360, wuKong.ServoList.S2, 180)
